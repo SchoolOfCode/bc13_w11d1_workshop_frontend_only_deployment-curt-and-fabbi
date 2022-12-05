@@ -1,10 +1,6 @@
- function handleClick() {
-    alert("You clikcked me");
- }
-
 function Button () {
     return (
-        <button onclick={handleClick}>Click me!</button>
+        <button onclick={alert("You clicked me")}>Click me!</button>
     )
 }
 
