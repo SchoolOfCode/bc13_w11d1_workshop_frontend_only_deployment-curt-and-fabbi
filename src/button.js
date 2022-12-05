@@ -7,3 +7,5 @@ function Button () {
         <button onclick={handleClick}>Click me!</button>
     )
 }
+
+export default Button;
