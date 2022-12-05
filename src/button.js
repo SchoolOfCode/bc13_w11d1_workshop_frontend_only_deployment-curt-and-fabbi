@@ -1,6 +1,6 @@
 function Button () {
     return (
-        <button onclick={alert("You clicked me")}>Click me!</button>
+        <button onclick={()=>alert("You clicked me")}>Click me!</button>
     )
 }
 
